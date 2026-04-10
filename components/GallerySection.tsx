@@ -1,28 +1,15 @@
 "use client"
 
+import { span } from "framer-motion/client"
 import Image from "next/image"
 
 const galleryImages = [
-  {
-    src: "/images/store-interior.jpg",
-    alt: "Interior da loja Lulemar",
-    span: "col-span-2 row-span-2",
-  },
-  {
-    src: "/images/construction-materials.jpg",
-    alt: "Materiais de construção",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    src: "/images/warehouse-stock.jpg",
-    alt: "Estoque de materiais",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    src: "/images/hero-construction.jpg",
-    alt: "Obra em construção",
-    span: "col-span-2 row-span-1",
-  },
+  { src: "/h/119.JPG", alt: "Festa de 20 anos com banda", span:2 },
+  { src: "/h/091.JPG", alt: "Crianças na festa de aniversário", span:1 },
+  { src: "/h/023.JPG", alt: "Nossa equipe com as crianças", span:1 },
+  { src: "/h/3.png", alt: "Equipe unida no balcão", span:1 },
+  { src: "/h/2.png", alt: "Clientes satisfeitos", span:1 },
+  { src: "/h/034.JPG", alt: "Atendimento personalizado", span:1 },
 ]
 
 export function GallerySection() {

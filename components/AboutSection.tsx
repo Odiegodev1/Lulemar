@@ -27,7 +27,7 @@ export function AboutSection() {
               />
             </div>
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-blue-500 text-primary-foreground p-6 rounded-lg shadow-xl">
+            <div className="absolute -bottom-6 md:block hidden -right-6 bg-blue-500 text-primary-foreground p-6 rounded-lg shadow-xl">
               <p className="text-4xl font-bold font-serif">1992</p>
               <p className="text-sm">Desde</p>
             </div>

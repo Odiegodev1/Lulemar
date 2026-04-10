@@ -41,10 +41,10 @@ const timelineEvents = [
 const galleryImages = [
   { src: "/h/119.JPG", alt: "Festa de 20 anos com banda" },
   { src: "/h/091.JPG", alt: "Crianças na festa de aniversário" },
-  { src: "/h/023.jpg", alt: "Nossa equipe com as crianças" },
+  { src: "/h/023.JPG", alt: "Nossa equipe com as crianças" },
   { src: "/h/3.png", alt: "Equipe unida no balcão" },
   { src: "/h/2.png", alt: "Clientes satisfeitos" },
-  { src: "/h/034.jpg", alt: "Atendimento personalizado" },
+  { src: "/h/034.JPG", alt: "Atendimento personalizado" },
 ]
 
 const quotes = [
