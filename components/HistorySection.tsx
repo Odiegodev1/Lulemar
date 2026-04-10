@@ -390,7 +390,7 @@ export function HistorySection() {
           style={{ y: backgroundY }}
         >
           <Image
-            src="/192.jpg"
+            src="/192.JPG"
             alt="Nossa História"
             fill
             className="object-cover"
